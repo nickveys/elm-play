@@ -1,5 +1,8 @@
+module Main where
+
 import Html exposing (Html, text)
+import Other
 
 main : Html
 main =
-  text "Hello, World!"
+  text Other.message
