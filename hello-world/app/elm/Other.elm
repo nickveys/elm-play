@@ -1,4 +1,4 @@
-module Other where
+module Other exposing (..)
 
 x = 2 + 2
 

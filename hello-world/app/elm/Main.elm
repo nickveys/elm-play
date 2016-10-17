@@ -1,8 +1,8 @@
-module Main where
+module Main exposing (..)
 
 import Html exposing (Html, text)
 import Other
 
-main : Html
+main : Html div
 main =
   text Other.message
